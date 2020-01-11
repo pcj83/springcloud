@@ -1,6 +1,7 @@
-package br.paulocezar.microservice.store.dto;
+package br.paulocezar.microservice.store.controller.dto;
 
-public class InfoFornecedorDTO {
+public class ProviderInfoDTO {
+	
  	private String address;
 
 	public String getAddress() {
