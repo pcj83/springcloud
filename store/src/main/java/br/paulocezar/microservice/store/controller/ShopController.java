@@ -17,6 +17,7 @@ public class ShopController {
 	
 	@RequestMapping(method = RequestMethod.POST)
 	public void doShopping(@RequestBody ShopDTO shop) {
+		shopService.doShopping(shop);
 		
 	}
 
